@@ -395,6 +395,6 @@ printf("\t/**************************/\n\n");
         }
     timer1 += mini1;    
 }
-printf("IPC semi ladder        : %llu\n",timer/NSAMPLES);	
-printf("IPC Montgomery ladder  : %llu\n",timer1/NSAMPLES);
+printf("IC semi ladder        : %llu\n",timer/NSAMPLES);	
+printf("IC Montgomery ladder  : %llu\n",timer1/NSAMPLES);
 }
